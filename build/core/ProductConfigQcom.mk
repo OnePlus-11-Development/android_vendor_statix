@@ -75,6 +75,7 @@ endif
 # Enable gralloc handle support on 5.10
 ifeq ($(call is-board-platform-in-list, $(UM_5_10_FAMILY) $(UM_5_15_FAMILY)),true)
     SOONG_CONFIG_qtidisplay_gralloc_handle_has_reserved_size := true
+    SOONG_CONFIG_qtidisplay_gralloc_handle_has_custom_content_md_reserved_size := true
 endif
 
 # Enable Gralloc4 on UM platforms that support it

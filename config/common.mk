@@ -96,6 +96,8 @@ include vendor/statix/config/bootanimation.mk
 # Fonts
 include vendor/statix/config/fonts.mk
 
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/statix/config/device_framework_matrix.xml
+
 # Overlays
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/statix/overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/statix/overlay/common
